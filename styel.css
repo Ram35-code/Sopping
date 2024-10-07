@@ -1,0 +1,191 @@
+#container-nav{
+  width: 100%;
+  height: 100%;
+}
+
+*{
+   margin: 0;
+   padding: 0;
+}
+
+#nav{
+   width: 100%;
+  height: 80px;
+  background-color: white;
+}
+
+#ia{
+   height: 13px;
+   width: 20px ;
+   border: 1px solid black;
+   margin: 0px 30 0px 0px;
+   border-radius: 6px;
+}
+
+span a{
+   color: black;
+   text-decoration: none;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.nav-a{
+   position: relative;
+   left: 2rem;
+   top: 1.5rem;
+}
+
+.nav-a i{
+   margin: 10px;
+}
+
+.next-nav{
+   width: 100%;
+   height: 76px;
+   background-color: black;
+}
+
+.para{
+   color: white;
+   font-size: 25px;
+   font-weight: 500;
+   display: inline-block;
+   margin-top: 22px;
+   margin-left: 38px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.para:hover{
+   text-decoration: underline white;
+   cursor: pointer;
+}
+
+.nav-home{
+   position: relative;
+   left: 64rem;
+}
+
+.nav-home a {
+   font-size: 19px;
+   color: white;
+   margin-left: 1rem;
+}
+
+.nav-home a:hover{
+   text-decoration: underline white;
+   cursor: pointer;
+}
+
+.nav-home i {
+   color: white;
+   margin-left: 19px;
+   font-size: 20px;
+   cursor: pointer;
+}
+
+h1{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   text-align: center;
+   margin-top: 35px;
+   font-size: 3rem;
+   font-weight: 700;
+}
+
+.shop-span{
+   display: inline-block;
+   position: relative;
+   left: 20rem;
+   margin-top: 47px;
+   margin-left: 10px;
+}
+
+.s{
+   font-size: 15px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin: 5px;
+}
+
+.showing{
+   font-size: 15px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin: 5px;
+}
+
+.input-size{
+   position: relative;
+   left: 19rem;
+}
+
+#input{
+   height: 2rem;
+   width: 10rem;
+   border: 2px solid;
+   color: black;
+}
+
+#size{
+   height: 2.2rem;
+   width: 10rem;
+   border: 2px solid;
+   color: black;
+}
+
+.main-img{
+   margin-top: 2rem;
+} 
+
+.img{
+    height: 362px;
+   display: inline-block;
+   position: relative;
+   left: 3rem;
+}
+
+.main-container{
+   height: 100%;
+   width: 100%;
+   margin-top: 3rem;
+   overflow: auto;
+}
+
+.one{
+   width: 23%;
+   padding: 3rem;
+   background-image: url("box1.webp");
+   background-size: cover;
+}
+
+.two{
+   width: 23%;
+   padding: 3rem;
+   background-image: url("box2.webp");
+   background-size: cover;
+}
+
+.three{
+   width: 23%;
+   padding: 3rem;
+   background-image: url("box3.webp");
+   background-size: cover;
+}
+
+.fore{
+   width: 23%;
+   padding: 3rem;
+   background-image: url("box4.webp");
+   background-size: cover;
+}
+
+.five{
+   width: 23%;
+   padding: 3rem;
+   background-image: url("iphone.jpg");
+   background-size: cover;
+}
+
+.six{
+   width: 23%;
+   padding: 3rem;
+   background-image: url("box6.webp");
+   background-size: cover;
+}
